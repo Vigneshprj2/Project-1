@@ -1,0 +1,49 @@
+.app{
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.header{
+  font-size: 2rem;
+  font-weight: 900;
+  height: 7vh;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  padding-top: 0px
+}
+.alignCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+  height: 92vh;
+  font-size: 2rem;
+  font-weight: 900;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.row{
+  display: flex;
+  height: 20vh;
+}
+.cell{
+  width: 11vw;
+  font-size: 5rem;
+  border: 1px solid white;
+}
+.yellow{
+  background-color: blue;
+}
+.orange{
+  background-color: pink;
+}
+button{
+  background-color: blue;
+  height: 5vh;
+  width: 8vw;
+  font-size: 1rem;
+  color: white;
+}
